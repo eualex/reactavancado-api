@@ -2,8 +2,18 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "name": "sectionModules",
-    "icon": "atlas"
+    "icon": "atlas",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.modules"
+    }
+  }
 }

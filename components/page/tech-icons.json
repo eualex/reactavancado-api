@@ -2,12 +2,13 @@
   "collectionName": "components_page_tech_icons",
   "info": {
     "name": "techIcons",
-    "icon": "tools"
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "icon": {
-      "collection": "file",
+      "model": "file",
       "via": "related",
       "allowedTypes": [
         "images"

@@ -49,17 +49,6 @@
       "component": "page.section-modules",
       "required": true
     },
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "modules": {
-      "type": "component",
-      "repeatable": true,
-      "component": "page.modules",
-      "required": true,
-      "min": 2
-    },
     "sectionAgenda": {
       "type": "component",
       "repeatable": false,
